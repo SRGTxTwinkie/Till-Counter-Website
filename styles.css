@@ -12,7 +12,7 @@ body{
 
 #form_heading_centered{
     margin: auto;
-    width: 50%;
+    width: 10%;
 }
 
 #amount_label{
@@ -38,8 +38,12 @@ body{
     margin: 10px;
 }
 
-#pop_content{
-    
+#total{
+    width: 11.5em;
+}
+
+#adj_total{
+    width: 11.5em;
 }
 
 .take_out_input{
@@ -49,10 +53,20 @@ body{
 
 .form_input{
     width: 10em;
+    border-radius: 5px;
+    box-shadow: grey 5px 5px;
 }
 
 .custom_button{
     display: inline;
     margin: 0.5em 0 0.5em 0 0.5;
     padding: 1em;
+}
+
+.custom_button:active{
+    display: inline;
+    margin: 0.5em 0 0.5em 0 0.5;
+    padding: 1em;
+    top: 2px;
+    position: relative;
 }

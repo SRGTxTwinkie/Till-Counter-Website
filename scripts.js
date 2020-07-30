@@ -64,9 +64,10 @@ function takeOut(total_cash_amount, total_number_of_bills, dollar_value_of_bills
 
     grabElement("adj_total").value = total.toFixed(2);
 
-    if(grabElement("adj_total").value == "100.01"){
+    if(grabElement("adj_total").value == grabElement("count_to").value + ".01"){
         grabElement(id_names[7] + "_out").value = parseInt(grabElement(id_names[7] + "_out").value) + 1;
         grabElement("adj_total").value = (parseFloat(grabElement("adj_total").value) - 0.01).toFixed(2);
+        console.log("invoked");
     }
   }
 
