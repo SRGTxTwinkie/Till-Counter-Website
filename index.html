@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+</head>
+
+<body>
+   <div id="main_container">
+      
+      <form>
+
+         <div id="form_heading_centered">
+            <label>Final Output</label><br>
+            <input type="text" class="form_input" id="count_to">
+         </div>
+         
+         <br>
+         <br>
+
+         <div id="bills">
+            <label id="amount_label">1's amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="1_amount_out" readonly>
+            <input type="text" class="form_input" id="1_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">5's amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="5_amount_out" readonly>
+            <input type="text" class="form_input" id="5_amount">
+            
+            <br>
+            <br>
+
+            <label id="amount_label">10's amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="10_amount_out" readonly>
+            <input type="text" class="form_input" id="10_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">20's amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="20_amount_out" readonly>
+            <input type="text" class="form_input" id="20_amount">
+         </div>
+
+         <div id="coins">
+
+            <label id="amount_label">Penny amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="penny_amount_out" readonly>
+            <input type="text" class="form_input" id="penny_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">Nickel amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="nickel_amount_out" readonly>
+            <input type="text" class="form_input" id="nickel_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">Dime amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="dime_amount_out" readonly>
+            <input type="text" class="form_input" id="dime_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">Quarter amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="quarter_amount_out" readonly>
+            <input type="text" class="form_input" id="quarter_amount">
+         </div>
+
+         <div id="coin_packs">
+
+            <label id="amount_label">Penny Pack amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="pennyp_amount_out" readonly>
+            <input type="text" class="form_input" id="pennyp_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">Nickel Pack amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="nicklep_amount_out" readonly>
+            <input type="text" class="form_input" id="nicklep_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">Dime Pack amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="dimep_amount_out" readonly>
+            <input type="text" class="form_input" id="dimep_amount">
+
+            <br>
+            <br>
+
+            <label id="amount_label">Qaurter amount:</label>
+            <br>
+            <input class="take_out_input" placeholder="0" id="quarterp_amount_out" readonly>
+            <input type="text" class="form_input" id="quarterp_amount">
+
+            <br>
+            <br>
+
+         </div>
+
+      </form>
+
+      <div id="totals">
+         <label>Total</label> 
+         <br>
+         <input type="text" class="form_input" id="total" readonly>
+
+         <br>
+         <br>
+
+         <label>Adj. Total</label>
+         <br>
+         <input type="text" class="form_input" id="adj_total" readonly>
+
+         <br>
+         <br>
+
+         <button type="button" class="custom_button" onclick="calculateTotal()">Calculate</button>
+         <button type="button" class="custom_button" onclick="clearAll()">Clear All</button>
+         <br>
+         <button type="button" class="custom_button" onclick="populateContent()" id="pop_content">Populate Content</button>
+      </div>
+
+   </div>
+</body>
+</html>
+<link rel="stylesheet" href="styles.css"><script src="scripts.js"></script>

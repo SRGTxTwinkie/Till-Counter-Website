@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+}
+
+
+#main_container{
+    margin: auto;
+    width: 75%;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+#form_heading_centered{
+    margin: auto;
+    width: 50%;
+}
+
+#amount_label{
+    padding-bottom: 1em;
+}
+
+#bills{
+    float: right;
+    padding: 0 3em 3em 3em;
+}
+
+#coins{
+    padding: 0 3em 3em 3em;
+}
+
+#coin_packs{
+    padding: 0 3em 3em 3em;
+    float: right;
+}
+
+#totals{
+    padding: 0em 3em 3em 3em;
+    margin: 10px;
+}
+
+#pop_content{
+    
+}
+
+.take_out_input{
+    margin-top: 0.5em;
+    width: 1.5em;
+}
+
+.form_input{
+    width: 10em;
+}
+
+.custom_button{
+    display: inline;
+    margin: 0.5em 0 0.5em 0 0.5;
+    padding: 1em;
+}
